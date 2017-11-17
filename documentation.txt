@@ -1,0 +1,10 @@
+171117
+Created Cybr_Project.
+Theorycraft BSP generation. Game matrix start with a basic node (width, height) and a maximum depth(how many times it can split). Node derives from struct BSPNode. From there the splitNode(params) func splits either horizontally or vertically. Depending on split direction, the basic node is divided into two subnodes (A, B) and their properties are set. If the maximum has yet to be reached, the func will run recursively until it has.
+files:
+main.cpp
+[GENERATION]
+TilemapGenerator.h/cpp
+Tile.h/cpp
+
+---
