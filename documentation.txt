@@ -1,10 +1,39 @@
-171117
-Created Cybr_Project.
+<--->: 171117_1
+<desc>
+Created Cybr Github.
+Created Cybr_Project (SFML 2.4.2).
 Theorycraft BSP generation. Game matrix start with a basic node (width, height) and a maximum depth(how many times it can split). Node derives from struct BSPNode. From there the splitNode(params) func splits either horizontally or vertically. Depending on split direction, the basic node is divided into two subnodes (A, B) and their properties are set. If the maximum has yet to be reached, the func will run recursively until it has.
-files:
+Img of theorycraft sesh (contains possible errors):
+https://cdn.discordapp.com/attachments/381074775633690635/381075003652833282/20171110_072232.jpg
+</>
+<files>
 main.cpp
 [GENERATION]
-TilemapGenerator.h/cpp
-Tile.h/cpp
+TilemapGenerator.h/cpp: contains struct BSPNode/code for generation.
+Tile.h/cpp: empty
+</>
+<time>
+Xh
+</>
+<todo>
+Atm there's no way to actually test the splitNode(params) func. System to output relevant testdata and basic matrix is needed.
+Should pref be universal for reusability and functional for minimal performance impact.
+When [GENERATION] is proven to work, [GAMESTATE] should be next target.
+</>
+</--->
 
----
+<--->: 171117_2
+<desc>
+Created [CLI_DEBUG]: Here are cli-func prototypes/declarations for the purpose of debugging/testing various parts of the project.
+</>
+
+<files>
+cliFuncs.h/cpp:
+</>
+
+<time>
+</>
+
+<todo>
+</>
+</--->
