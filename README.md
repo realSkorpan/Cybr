@@ -1,5 +1,5 @@
 # Cybr
-Simple university game-project in C++ and SFML 2.4.2
+Simple university project in C++ using SFML.
 ## Getting Started
 Download the Cybr_Project-folder and run Cybr_Project.exe located in x64/Debug/.
 ### Prerequisites
