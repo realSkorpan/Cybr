@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\ENTITY">
+      <UniqueIdentifier>{4cc8699d-ec7b-415c-aedd-acc0dda6a8b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GAMESTATE">
+      <UniqueIdentifier>{1c68b2e3-9002-46f7-9750-f954fb840e5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GENERATION">
+      <UniqueIdentifier>{1a3e018b-8225-49d1-98e4-608c69c7df90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GRAPHICS">
+      <UniqueIdentifier>{ca08d9c5-ae50-47a2-8fce-020734c308b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\NETWORK">
+      <UniqueIdentifier>{b8b8b9a0-b199-4b7d-8344-48c824b6bce3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ENTITY">
+      <UniqueIdentifier>{55da591a-a4bc-4116-a137-2035c2d02044}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GAMESTATE">
+      <UniqueIdentifier>{8a30f112-d38c-4c8d-93eb-313c5879d88d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GENERATION">
+      <UniqueIdentifier>{3b42ba73-e0f0-4621-a53d-114d3ba87f19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GRAPHICS">
+      <UniqueIdentifier>{01484c80-7201-4355-87b9-b7bc7ce09bc3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\NETWORK">
+      <UniqueIdentifier>{72f2df34-45a5-4b28-a86c-ec354b1e0872}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\PLAYER">
+      <UniqueIdentifier>{96ae5208-6c23-4595-8d39-5e243a8d190a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PLAYER">
+      <UniqueIdentifier>{ca7f2de0-c6cf-44f2-84d6-c1dafc15d9b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ENTITY\AI">
+      <UniqueIdentifier>{9ba2abd0-4b2a-4197-89fc-250ecd04f7d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ENTITY\AI">
+      <UniqueIdentifier>{dd9b0c43-1776-4b18-a8ce-32b5fe4ba914}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ENTITY\UNIT">
+      <UniqueIdentifier>{f807d80c-10ee-497f-9a78-0c23e886e9ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ENTITY\UNIT">
+      <UniqueIdentifier>{5add7691-77bb-4ece-bc27-181244c93e3c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GAMESTATE\Game.cpp">
+      <Filter>Source Files\GAMESTATE</Filter>
+    </ClCompile>
+    <ClCompile Include="GAMESTATE\GameStateStart.cpp">
+      <Filter>Source Files\GAMESTATE</Filter>
+    </ClCompile>
+    <ClCompile Include="GAMESTATE\GameStatePlay.cpp">
+      <Filter>Source Files\GAMESTATE</Filter>
+    </ClCompile>
+    <ClCompile Include="GENERATION\Tilemap.cpp">
+      <Filter>Source Files\GENERATION</Filter>
+    </ClCompile>
+    <ClCompile Include="GENERATION\TilemapGenerator.cpp">
+      <Filter>Source Files\GENERATION</Filter>
+    </ClCompile>
+    <ClCompile Include="GENERATION\Tile.cpp">
+      <Filter>Source Files\GENERATION</Filter>
+    </ClCompile>
+    <ClCompile Include="PLAYER\PlayerState.cpp">
+      <Filter>Source Files\PLAYER</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity\Pathfinder.cpp">
+      <Filter>Source Files\ENTITY\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity\Unit.cpp">
+      <Filter>Source Files\ENTITY\UNIT</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity\NpcUnit.cpp">
+      <Filter>Source Files\ENTITY\UNIT</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity\PlayerUnit.cpp">
+      <Filter>Source Files\ENTITY\UNIT</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity\UnitContainer.cpp">
+      <Filter>Source Files\ENTITY\UNIT</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GAMESTATE\GameState.h">
+      <Filter>Header Files\GAMESTATE</Filter>
+    </ClInclude>
+    <ClInclude Include="GAMESTATE\Game.h">
+      <Filter>Header Files\GAMESTATE</Filter>
+    </ClInclude>
+    <ClInclude Include="GAMESTATE\GameStateStart.h">
+      <Filter>Header Files\GAMESTATE</Filter>
+    </ClInclude>
+    <ClInclude Include="GAMESTATE\GameStatePlay.h">
+      <Filter>Header Files\GAMESTATE</Filter>
+    </ClInclude>
+    <ClInclude Include="GENERATION\Tilemap.h">
+      <Filter>Header Files\GENERATION</Filter>
+    </ClInclude>
+    <ClInclude Include="GENERATION\TilemapGenerator.h">
+      <Filter>Header Files\GENERATION</Filter>
+    </ClInclude>
+    <ClInclude Include="GENERATION\Tile.h">
+      <Filter>Header Files\GENERATION</Filter>
+    </ClInclude>
+    <ClInclude Include="PLAYER\PlayerState.h">
+      <Filter>Header Files\PLAYER</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity\Pathfinder.h">
+      <Filter>Header Files\ENTITY\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity\Unit.h">
+      <Filter>Header Files\ENTITY\UNIT</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity\NpcUnit.h">
+      <Filter>Header Files\ENTITY\UNIT</Filter>
+    </ClInclude>
+    <ClInclude Include="ENTITY\PlayerUnit.h">
+      <Filter>Header Files\ENTITY\UNIT</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity\UnitContainer.h">
+      <Filter>Header Files\ENTITY\UNIT</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
