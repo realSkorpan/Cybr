@@ -7,4 +7,4 @@ SFML 2.4.2 is needed to open in prefered IDE. Minimum requirement - 64-bit OS to
 #### Installation
 Can either be directly mounted in Visual Studio or manually setup in any IDE using the Header/Source files located in the "Cybr_Project/Cybr_Project/" directory
 #### About
-For more information see documentation.txt/description.txt.
+For more information see the project description and documentation.
