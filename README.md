@@ -1,5 +1,6 @@
 # Cybr
 Simple university project in C++ using SFML.
+For more detailed information see the documentation respective description txtfiles.
 ## Getting Started
 Download the Cybr_Project-folder and run Cybr_Project.exe located in x64/Debug/.
 ### Prerequisites
