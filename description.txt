@@ -17,9 +17,9 @@ ________
 [ENTITY]
 Every interactable object is an entity. Items, characters, weapons, etc.
 
-BaseEntity.h        - Base for all entities as a lot of data is shared between classes.
-PlayerEntity.h/cpp  - The player(s). Contains information such as; action points, health, inventory.
-ItemEntity.h/cpp    - An item can be a health-pack, armor-pack, weapon, etc.
+Unit.h/cpp          - Base for all entities as a lot of data is shared between classes.
+UnitContainer.h/cpp - The player(s). Contains information such as; action points, health, inventory.
+Item.h/cpp          - An item can be a health-pack, armor-pack, weapon, etc. This is the base-class for such objects.
 ________
 [GAMESTATE]
 The game is divided into several "states".
